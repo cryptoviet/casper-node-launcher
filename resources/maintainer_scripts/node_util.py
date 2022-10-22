@@ -37,7 +37,7 @@ class NodeUtil:
     """
     CONFIG_PATH = Path("/etc/casper")
     BIN_PATH = Path("/var/lib/casper/bin")
-    DB_PATH = Path("/var/lib/casper/casper-node")
+    DB_PATH = Path("/mnt/blockstorage/casper/casper-node")
     NET_CONFIG_PATH = CONFIG_PATH / "network_configs"
     PLATFORM_PATH = CONFIG_PATH / "PLATFORM"
     SCRIPT_NAME = "node_util.py"
